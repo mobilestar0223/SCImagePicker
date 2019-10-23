@@ -60,6 +60,11 @@ extension SCImagePickerSubVCType where Self:UIViewController {
     */
     func updateSelectedPhotosCountInfo(){
         let selectedAssets = imagePickerController.selectedAssets
+        
+        if #available(iOS 13.0, *) {
+            toolbarItems?[2].tintColor = .label
+        }
+        
         if selectedAssets.count > 0 {
             toolbarItems?[2].title = String(format: "%d Items Selected".localizedString, selectedAssets.count)
         } else {
