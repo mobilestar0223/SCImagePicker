@@ -290,6 +290,10 @@ extension SCAssetsViewController {
         let numberOfPhotos = assetsFetchResults.countOfAssets(with: .image)
         let numberOfVideos = assetsFetchResults.countOfAssets(with: .video)
         
+        if #available(iOS 13.0, *) {
+            label.textColor = .label
+        }
+        
         switch imagePickerController.mediaType {
         case .any:
             label.text = String(format: "%d Photos, %d Videos".localizedString, numberOfPhotos, numberOfVideos)
