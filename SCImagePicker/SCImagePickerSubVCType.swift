@@ -38,8 +38,12 @@ extension SCImagePickerSubVCType where Self:UIViewController {
         
         // Info Label
         let infoBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
         infoBarButtonItem.isEnabled = false
-        let attribues:[NSAttributedString.Key:Any] = [NSAttributedString.Key.foregroundColor: UIColor.black]
+        var attribues:[NSAttributedString.Key:Any] = [NSAttributedString.Key.foregroundColor: UIColor.black]
+        if #available(iOS 13.0, *) {
+            attribues = [NSAttributedString.Key.foregroundColor: UIColor.label]
+        }
 
         infoBarButtonItem.setTitleTextAttributes(attribues, for: [.normal])
         infoBarButtonItem.setTitleTextAttributes(attribues, for: [.disabled])
@@ -60,10 +64,6 @@ extension SCImagePickerSubVCType where Self:UIViewController {
     */
     func updateSelectedPhotosCountInfo(){
         let selectedAssets = imagePickerController.selectedAssets
-        
-        if #available(iOS 13.0, *) {
-            toolbarItems?[2].tintColor = .label
-        }
         
         if selectedAssets.count > 0 {
             toolbarItems?[2].title = String(format: "%d Items Selected".localizedString, selectedAssets.count)
