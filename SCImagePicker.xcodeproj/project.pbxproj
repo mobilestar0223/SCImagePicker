@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA5195DA2450EB050068818B /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = FA5195DC2450EB050068818B /* Localizable.stringsdict */; };
+		FA5195E32450ED470068818B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA5195E52450ED470068818B /* Localizable.strings */; };
 		FA58B23C1D1C6699003EA19A /* SCImagePickerSubVCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58B23B1D1C6699003EA19A /* SCImagePickerSubVCType.swift */; };
 		FA9046661D18E6580024A309 /* SCImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9046651D18E6580024A309 /* SCImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA90466D1D18E6580024A309 /* SCImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9046621D18E6570024A309 /* SCImagePicker.framework */; };
@@ -23,11 +25,9 @@
 		FA9046911D193AC70024A309 /* SCVideoIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9046901D193AC70024A309 /* SCVideoIconView.swift */; };
 		FA9046931D193CCE0024A309 /* SCSlomoIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9046921D193CCE0024A309 /* SCSlomoIconView.swift */; };
 		FA9046951D1942200024A309 /* SCCheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9046941D1942200024A309 /* SCCheckmarkView.swift */; };
-		FA90469A1D1990FB0024A309 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = FA9046991D1990FB0024A309 /* Localizable.stringsdict */; };
 		FA90469E1D199D460024A309 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90469D1D199D460024A309 /* String+Localization.swift */; };
 		FA9046A01D19A18C0024A309 /* SCImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90469F1D19A18C0024A309 /* SCImagePickerController.swift */; };
 		FAD46BE01D1B817F001E5AF9 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD46BDF1D1B817F001E5AF9 /* UIImageExtension.swift */; };
-		FAD46BE21D1BC1A7001E5AF9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD46BE11D1BC1A7001E5AF9 /* Localizable.strings */; };
 		FAD46BEB1D1BCF46001E5AF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD46BEA1D1BCF46001E5AF9 /* AppDelegate.swift */; };
 		FAD46BED1D1BCF46001E5AF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD46BEC1D1BCF46001E5AF9 /* ViewController.swift */; };
 		FAD46BF01D1BCF46001E5AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD46BEE1D1BCF46001E5AF9 /* Main.storyboard */; };
@@ -92,6 +92,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA5195DB2450EB050068818B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		FA5195DF2450EBDA0068818B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = de; path = de.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		FA5195E02450EBE70068818B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = tr; path = tr.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		FA5195E42450ED470068818B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA5195E62450ED490068818B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA5195E72450ED490068818B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FA58B23B1D1C6699003EA19A /* SCImagePickerSubVCType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCImagePickerSubVCType.swift; sourceTree = "<group>"; };
 		FA9046621D18E6570024A309 /* SCImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9046651D18E6580024A309 /* SCImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCImagePicker.h; sourceTree = "<group>"; };
@@ -111,11 +117,9 @@
 		FA9046901D193AC70024A309 /* SCVideoIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCVideoIconView.swift; sourceTree = "<group>"; };
 		FA9046921D193CCE0024A309 /* SCSlomoIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSlomoIconView.swift; sourceTree = "<group>"; };
 		FA9046941D1942200024A309 /* SCCheckmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCCheckmarkView.swift; sourceTree = "<group>"; };
-		FA9046991D1990FB0024A309 /* Localizable.stringsdict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
 		FA90469D1D199D460024A309 /* String+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
 		FA90469F1D19A18C0024A309 /* SCImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCImagePickerController.swift; sourceTree = "<group>"; };
 		FAD46BDF1D1B817F001E5AF9 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		FAD46BE11D1BC1A7001E5AF9 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		FAD46BE81D1BCF46001E5AF9 /* SCImagePickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCImagePickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD46BEA1D1BCF46001E5AF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD46BEC1D1BCF46001E5AF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -207,10 +211,10 @@
 				FA9046881D1922560024A309 /* IndexSet+Utility.swift */,
 				FA90468A1D19229F0024A309 /* UICollectionView+Utility.swift */,
 				FA90468C1D1923850024A309 /* CGSizeUtilities.swift */,
-				FA9046991D1990FB0024A309 /* Localizable.stringsdict */,
+				FA5195DC2450EB050068818B /* Localizable.stringsdict */,
 				FA90469D1D199D460024A309 /* String+Localization.swift */,
 				FAD46BDF1D1B817F001E5AF9 /* UIImageExtension.swift */,
-				FAD46BE11D1BC1A7001E5AF9 /* Localizable.strings */,
+				FA5195E52450ED470068818B /* Localizable.strings */,
 			);
 			path = SCImagePicker;
 			sourceTree = "<group>";
@@ -435,6 +439,8 @@
 				English,
 				en,
 				Base,
+				de,
+				tr,
 			);
 			mainGroup = FA9046581D18E6570024A309;
 			productRefGroup = FA9046631D18E6570024A309 /* Products */;
@@ -456,8 +462,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA90467F1D18E7C70024A309 /* SCImagePicker.storyboard in Resources */,
-				FAD46BE21D1BC1A7001E5AF9 /* Localizable.strings in Resources */,
-				FA90469A1D1990FB0024A309 /* Localizable.stringsdict in Resources */,
+				FA5195E32450ED470068818B /* Localizable.strings in Resources */,
+				FA5195DA2450EB050068818B /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +587,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FA5195DC2450EB050068818B /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5195DB2450EB050068818B /* en */,
+				FA5195DF2450EBDA0068818B /* de */,
+				FA5195E02450EBE70068818B /* tr */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		FA5195E52450ED470068818B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5195E42450ED470068818B /* en */,
+				FA5195E62450ED490068818B /* de */,
+				FA5195E72450ED490068818B /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		FAD46BEE1D1BCF46001E5AF9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

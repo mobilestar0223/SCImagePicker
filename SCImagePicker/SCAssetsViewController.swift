@@ -40,7 +40,7 @@ class SCAssetsViewController: UICollectionViewController, SCImagePickerSubVCType
     }()
     
     lazy var clearButton: UIBarButtonItem = {[unowned self] in
-        return UIBarButtonItem(title: "Clear", style: .plain, target: self, action: #selector(clearSelection(_:)))
+        return UIBarButtonItem(title: "Clear".localizedString, style: .plain, target: self, action: #selector(clearSelection(_:)))
     }()
     
     var autoDeselectEnabled: Bool {

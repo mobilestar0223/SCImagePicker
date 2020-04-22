@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%d photos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@photos@</string>
+		<key>photos</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Fotoğraf yok</string>
+			<key>one</key>
+			<string>1 Fotoğraf</string>
+			<key>other</key>
+			<string>%d Fotoğraflar</string>
+		</dict>
+	</dict>
+	<key>%d videos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@videos@</string>
+		<key>videos</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Video Yok</string>
+			<key>one</key>
+			<string>1 Video</string>
+			<key>other</key>
+			<string>%d Videolar</string>
+		</dict>
+	</dict>
+	<key>%d Items Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items_selected@</string>
+		<key>items_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Seçili Öğe Yok</string>
+			<key>one</key>
+			<string>1 Öğe Seçildi</string>
+			<key>other</key>
+			<string>%d Seçilen Öğeler</string>
+		</dict>
+	</dict>
+	<key>%d Photos, %d Videos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@photos_d_videos@</string>
+		<key>photos_d_videos</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Fotoğraf yok, %2$#@d_videos@</string>
+			<key>one</key>
+			<string>1 Fotoğraf, %2$#@d_videos@</string>
+			<key>other</key>
+			<string>%d Fotoğraflar, %2$#@d_videos@</string>
+		</dict>
+		<key>d_videos</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Video Yok</string>
+			<key>one</key>
+			<string>1 Video</string>
+			<key>other</key>
+			<string>%d Videolar</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
